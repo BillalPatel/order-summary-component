@@ -23,8 +23,8 @@ Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to t
 
 ### Links
 
-- Solution URL: [GitHub Repo](https://github.com/BillalPatel/qr-code-component)
-- Live Site URL: [Netlify](https://main--clever-scone-0273da.netlify.app)
+- Solution URL: [GitHub Repo](https://github.com/BillalPatel/order-summary-component)
+- Live Site URL: [Netlify](https://magenta-beignet-5eac2f.netlify.app)
 
 ## My process
 
