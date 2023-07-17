@@ -25,11 +25,10 @@ body {
 }
 
 h1 {
-    margin-top: 0;
+    margin-top: 35px;
     color: var(--dark-blue);
     font-weight: 900;
     font-size: 1.7em;
-    ;
 }
 
 p {
@@ -41,7 +40,7 @@ p {
     border: none;
     border-radius: 25px;
     background-color: white;
-    width: 400px;
+    width: 450px;
 }
 
 .hero-image {
@@ -55,23 +54,26 @@ p {
     padding: 0;
 }
 
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .description {
     margin-bottom: 30px;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-bottom: 25px;
 }
-
 
 .price-box {
     border: none;
     border-radius: 1em;
     background-color: var(--very-pale-blue);
     height: 3em;
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     padding: 1.25em;
-
 }
 
 .grid-price-box {
@@ -128,12 +130,10 @@ p {
 #payment-btn {
     background-color: var(--bright-blue);
     height: 4em;
-    width: 89%;
+    width: 85%;
     border-radius: 1em;
     color: var(--white);
     margin-bottom: 25px;
-    /* box-shadow: 10px 10px var(--pale-blue); */
-    /* box-shadow: 0.1em 0.8em ; */
     box-shadow: rgba(0, 0, 0, 0.18) 0px 15px 15px;
 }
 
@@ -150,8 +150,20 @@ p {
     color: var(--dark-blue);
 }
 
-/* @media (max-width:450px) {
+@media (max-width:450px) {
     .container {
-        width: 70vw;
+        width: 380px;
     }
-} */
+
+    .content {
+        width: 100%;
+    }
+
+    .description {
+        width: 79%;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+}
